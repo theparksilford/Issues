@@ -1,6 +1,6 @@
 name: Issue Report
 description: File an Issue
-title: ""
+title: "Report an Issue"
 labels: ["bug", "triage"]
 assignees:
   - octocat
