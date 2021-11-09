@@ -14,7 +14,6 @@ body:
     attributes:
       label: Property Details
       description: Please provide the property address?
-      placeholder: 
       validations:
       required: true
 
