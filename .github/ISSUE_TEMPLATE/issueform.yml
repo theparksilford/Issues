@@ -1,4 +1,4 @@
-name: Issue Report
+name: IssueReport
 description: File an Issue
 title: "Report an Issue"
 labels: ["bug", "triage"]
@@ -7,7 +7,7 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: |
+      value: 
         Thanks for taking the time to fill out this Issue report!
   - type: input
     id: Address
