@@ -1,6 +1,5 @@
 name: Report a Problem
 description: File an Issue so that RedRock and Directors could see it.
-title: "Report an Issue"
 labels: ["Issue"]
 body:
   - type: markdown
@@ -21,9 +20,9 @@ body:
     attributes:
       label: Contact Details
       description: Please provide the property address?
-      placeholder: your@email.com or contact details
+      placeholder: your@email.com or contact details, be careful as this is a public website.
     validations:
-      required: true
+      required: false
 
   - type: dropdown
     id: IssueType
