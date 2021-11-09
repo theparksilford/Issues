@@ -1,5 +1,5 @@
-name: IssueReport
-description: File an Issue
+name: Report a Problem
+description: File an Issue so that RedRock and Directors could see it.
 title: "Report an Issue"
 labels: ["Issue"]
 body:
