@@ -23,7 +23,7 @@ body:
       label: Contact Details
       description: Please provide the property address?
       placeholder: your@email.com or contact details
-      validations:
+    validations:
       required: true
 
   - type: dropdown
