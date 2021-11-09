@@ -1,0 +1,68 @@
+name: Issue Report
+description: File an Issue
+title: ""
+labels: ["bug", "triage"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this Issue report!
+  - type: input
+    id: Address
+    attributes:
+      label: Property Details
+      description: Please provide the property address?
+      placeholder: 
+      validations:
+      required: true
+
+  - type: input
+    id: Contact
+    attributes:
+      label: Contact Details
+      description: Please provide the property address?
+      placeholder: your@email.com or contact details
+      validations:
+      required: true
+
+  - type: dropdown
+    id: IssueType
+    attributes:
+      label: Type of problem?
+      description: You are?
+      options:
+        - Cleaning
+        - Repair
+        - Accounts and Payment
+        - Ground Maintenance
+        - General Issue
+    validations:
+      required: true
+
+
+
+      
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Issue Description?
+      description: Describe whats the problem!
+      placeholder: Tell us what is wrong!
+      value: 
+    validations:
+      required: true
+
+  - type: dropdown
+    id: loggedby
+    attributes:
+      label: Logged By
+      description: You are?
+      options:
+        - Leaseholder or FreeHolder
+        - Tenant in a flat
+        - Tenant in a house
+    validations:
+      required: true
+
