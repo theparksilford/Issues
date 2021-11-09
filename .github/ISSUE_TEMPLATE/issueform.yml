@@ -1,9 +1,8 @@
 name: IssueReport
 description: File an Issue
 title: "Report an Issue"
-labels: ["bug", "triage"]
+labels: ["Issue"]
 assignees:
-  - octocat
 body:
   - type: markdown
     attributes:
