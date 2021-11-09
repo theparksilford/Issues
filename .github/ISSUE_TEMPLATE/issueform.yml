@@ -10,11 +10,12 @@ body:
       value: 
         Thanks for taking the time to fill out this Issue report!
   - type: input
+  
     id: Address
     attributes:
       label: Property Details
       description: Please provide the property address?
-      validations:
+    validations:
       required: true
 
   - type: input
