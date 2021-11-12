@@ -38,7 +38,7 @@ body:
     validations:
       required: true
 
-- type: input
+  - type: input
    id: DateOfIssue
     attributes:
       label: Since when this issue started?
