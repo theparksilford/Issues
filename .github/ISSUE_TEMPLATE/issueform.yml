@@ -39,7 +39,7 @@ body:
       required: true
 
   - type: input
-   id: DateOfIssue
+    id: DateOfIssue
     attributes:
       label: Since when this issue started?
       description: Enter the date when you started to notice the issue?
