@@ -35,6 +35,8 @@ body:
         - Accounts and Payment
         - Ground Maintenance
         - General Issue
+        - Bulk Rubbish/Dumping
+        - Car Parking/Bay
     validations:
       required: true
 
@@ -67,6 +69,8 @@ body:
         - Leaseholder or FreeHolder
         - Tenant in a flat
         - Tenant in a house
+        - Directors
+        - Manangement Agent
     validations:
       required: true
 
