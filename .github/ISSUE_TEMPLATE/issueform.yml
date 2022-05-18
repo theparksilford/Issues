@@ -1,6 +1,8 @@
 name: Report a Problem
 description: File an Issue so that RedRock and Directors could see it.
 labels: ["Issue"]
+assignees:
+  - jeremydoran
 body:
   - type: markdown
     attributes:
