@@ -13,3 +13,12 @@ body:
         👉 https://your-new-system.com/issues
 
         Any issues opened here will be automatically closed.
+
+  - type: input
+    id: acknowledge
+    attributes:
+      label: Acknowledge
+      description: Type "OK" to confirm you understand
+      placeholder: OK
+    validations:
+      required: true
