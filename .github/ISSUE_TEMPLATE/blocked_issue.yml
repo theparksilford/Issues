@@ -1,0 +1,15 @@
+name: 🚫 Issues are no longer accepted here
+description: Redirect users to the new system
+title: "[DO NOT USE] Please use new issue system"
+labels: ["invalid"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🚫 **This repository no longer accepts issues.**
+
+        Please log your issue in our new system:
+        👉 https://your-new-system.com/issues
+
+        Any issues opened here will be automatically closed.
